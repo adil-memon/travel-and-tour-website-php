@@ -1,12 +1,4 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-
 <?php
 include("header.php");
 ?>
@@ -93,7 +85,7 @@ include("header.php");
 							<div class="single-destination relative">
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>
-									<img class="img-fluid" src="img/d1.jpg" alt="">
+									<img class="img-fluid" src="usertemplate/img/d1.jpg" alt="">
 								</div>
 								<div class="desc">	
 									<a href="#" class="price-btn">$150</a>			
@@ -106,7 +98,7 @@ include("header.php");
 							<div class="single-destination relative">
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>
-									<img class="img-fluid" src="img/d2.jpg" alt="">
+									<img class="img-fluid" src="usertemplate/img/d2.jpg" alt="">
 								</div>
 								<div class="desc">	
 									<a href="#" class="price-btn">$250</a>			
@@ -119,7 +111,7 @@ include("header.php");
 							<div class="single-destination relative">
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>
-									<img class="img-fluid" src="img/d3.jpg" alt="">
+									<img class="img-fluid" src="usertemplate/img/d3.jpg" alt="">
 								</div>
 								<div class="desc">	
 									<a href="#" class="price-btn">$350</a>			
@@ -260,7 +252,7 @@ include("header.php");
 						<div class="col-lg-3 col-md-6">
 							<div class="single-other-issue">
 								<div class="thumb">
-									<img class="img-fluid" src="img/o1.jpg" alt="">					
+									<img class="img-fluid" src="usertemplate/img/o1.jpg" alt="">					
 								</div>
 								<a href="#">
 									<h4>Rent a Car</h4>
@@ -273,7 +265,7 @@ include("header.php");
 						<div class="col-lg-3 col-md-6">
 							<div class="single-other-issue">
 								<div class="thumb">
-									<img class="img-fluid" src="img/o2.jpg" alt="">					
+									<img class="img-fluid" src="usertemplate/img/o2.jpg" alt="">					
 								</div>
 								<a href="#">
 									<h4>Cruise Booking</h4>
@@ -286,7 +278,7 @@ include("header.php");
 						<div class="col-lg-3 col-md-6">
 							<div class="single-other-issue">
 								<div class="thumb">
-									<img class="img-fluid" src="img/o3.jpg" alt="">					
+									<img class="img-fluid" src="usertemplate/img/o3.jpg" alt="">					
 								</div>
 								<a href="#">
 									<h4>To Do List</h4>
@@ -299,7 +291,7 @@ include("header.php");
 						<div class="col-lg-3 col-md-6">
 							<div class="single-other-issue">
 								<div class="thumb">
-									<img class="img-fluid" src="img/o4.jpg" alt="">					
+									<img class="img-fluid" src="usertemplate/img/o4.jpg" alt="">					
 								</div>
 								<a href="#">
 									<h4>Food Features</h4>
@@ -330,7 +322,7 @@ include("header.php");
 		                <div class="active-testimonial">
 		                    <div class="single-testimonial item d-flex flex-row">
 		                        <div class="thumb">
-		                            <img class="img-fluid" src="img/elements/user1.png" alt="">
+		                            <img class="img-fluid" src="usertemplate/img/elements/user1.png" alt="">
 		                        </div>
 		                        <div class="desc">
 		                            <p>
@@ -348,7 +340,7 @@ include("header.php");
 		                    </div>
 		                    <div class="single-testimonial item d-flex flex-row">
 		                        <div class="thumb">
-		                            <img class="img-fluid" src="img/elements/user2.png" alt="">
+		                            <img class="img-fluid" src="usertemplate/img/elements/user2.png" alt="">
 		                        </div>
 		                        <div class="desc">
 		                            <p>
@@ -366,7 +358,7 @@ include("header.php");
 		                    </div>
 		                    <div class="single-testimonial item d-flex flex-row">
 		                        <div class="thumb">
-		                            <img class="img-fluid" src="img/elements/user1.png" alt="">
+		                            <img class="img-fluid" src="usertemplate/img/elements/user1.png" alt="">
 		                        </div>
 		                        <div class="desc">
 		                            <p>
@@ -384,7 +376,7 @@ include("header.php");
 		                    </div>
 		                    <div class="single-testimonial item d-flex flex-row">
 		                        <div class="thumb">
-		                            <img class="img-fluid" src="img/elements/user2.png" alt="">
+		                            <img class="img-fluid" src="usertemplate/img/elements/user2.png" alt="">
 		                        </div>
 		                        <div class="desc">
 		                            <p>
@@ -402,7 +394,7 @@ include("header.php");
 		                    </div>
 		                    <div class="single-testimonial item d-flex flex-row">
 		                        <div class="thumb">
-		                            <img class="img-fluid" src="img/elements/user1.png" alt="">
+		                            <img class="img-fluid" src="usertemplate/img/elements/user1.png" alt="">
 		                        </div>
 		                        <div class="desc">
 		                            <p>
@@ -420,7 +412,7 @@ include("header.php");
 		                    </div>
 		                    <div class="single-testimonial item d-flex flex-row">
 		                        <div class="thumb">
-		                            <img class="img-fluid" src="img/elements/user2.png" alt="">
+		                            <img class="img-fluid" src="usertemplate/img/elements/user2.png" alt="">
 		                        </div>
 		                        <div class="desc">
 		                            <p>
@@ -458,7 +450,7 @@ include("header.php");
 							<a href="#" class="primary-btn text-uppercase">request custom price</a>
 						</div>
 						<div class="col-lg-6 col-md-12 home-about-right no-padding">
-							<img class="img-fluid" src="img/about-img.jpg" alt="">
+							<img class="img-fluid" src="usertemplate/img/about-img.jpg" alt="">
 						</div>
 					</div>
 				</div>	
@@ -481,7 +473,7 @@ include("header.php");
 						<div class="active-recent-blog-carusel">
 							<div class="single-recent-blog-post item">
 								<div class="thumb">
-									<img class="img-fluid" src="img/b1.jpg" alt="">
+									<img class="img-fluid" src="usertemplate/img/b1.jpg" alt="">
 								</div>
 								<div class="details">
 									<div class="tags">
@@ -503,7 +495,7 @@ include("header.php");
 							</div>
 							<div class="single-recent-blog-post item">
 								<div class="thumb">
-									<img class="img-fluid" src="img/b2.jpg" alt="">
+									<img class="img-fluid" src="usertemplate/img/b2.jpg" alt="">
 								</div>
 								<div class="details">
 									<div class="tags">
@@ -525,7 +517,7 @@ include("header.php");
 							</div>
 							<div class="single-recent-blog-post item">
 								<div class="thumb">
-									<img class="img-fluid" src="img/b3.jpg" alt="">
+									<img class="img-fluid" src="usertemplate/img/b3.jpg" alt="">
 								</div>
 								<div class="details">
 									<div class="tags">
@@ -547,7 +539,7 @@ include("header.php");
 							</div>	
 							<div class="single-recent-blog-post item">
 								<div class="thumb">
-									<img class="img-fluid" src="img/b1.jpg" alt="">
+									<img class="img-fluid" src="usertemplate/img/b1.jpg" alt="">
 								</div>
 								<div class="details">
 									<div class="tags">
@@ -569,7 +561,7 @@ include("header.php");
 							</div>
 							<div class="single-recent-blog-post item">
 								<div class="thumb">
-									<img class="img-fluid" src="img/b2.jpg" alt="">
+									<img class="img-fluid" src="usertemplate/img/b2.jpg" alt="">
 								</div>
 								<div class="details">
 									<div class="tags">
@@ -591,7 +583,7 @@ include("header.php");
 							</div>
 							<div class="single-recent-blog-post item">
 								<div class="thumb">
-									<img class="img-fluid" src="img/b3.jpg" alt="">
+									<img class="img-fluid" src="usertemplate/img/b3.jpg" alt="">
 								</div>
 								<div class="details">
 									<div class="tags">
