@@ -14,7 +14,7 @@
 <body>
     <div class="col-md-4" style="margin-left: 500px; margin-top: 100px;">
     <!-- Default form login -->
-<form class="text-center border border-light p-5" action="coding.php" method="GET">
+<form class="text-center border border-light p-5" method="GET">
 
     <p class="h4 mb-4">Admin Panel Login</p>
 
@@ -39,7 +39,7 @@
     </div>
 
     <!-- Sign in button -->
-    <button class="btn btn-info btn-block my-4" type="submit" name="logbtn">Sign in</button>
+    <button class="btn btn-info btn-block my-4" type="submit" name="btn">Sign in</button>
 
    
 
@@ -63,3 +63,22 @@
     <script src="mdbootstrap/js/mdb.min.js"></script>
 </body>
 </html>
+<?php
+
+include("connection.php");
+//session_start();
+if (isset($_GET['btn'])) {
+    $e=$_GET['useremail'];
+    $pass=$_GET['userpass'];
+    $query=mysqli_query($con,"SELECT * FROM `registration` WHERE email='$e' and password='$pass' and role=2 ");
+    if (mysqli_num_rows($query)) {
+        $_SESSION['login_user']=$e;
+        echo "<script>alert('Login Successfull')</script>";
+        header("Location:dashboard.php");
+    }
+    else {
+        echo "<script>alert('Login Failed!')</script>";
+    }
+}
+
+?>
